@@ -8,6 +8,4 @@ Included files:
 - `unnamed.webp` - Paotang app icon
 
 Font note:
-This page uses `FC Iconic` via the local system font. If another computer does not have FC Iconic installed, the browser will fall back to another Thai-capable font.
-
-For the closest visual match, install FC Iconic on the viewing computer before opening the file.
+The required `FC Iconic` font files are included in `fonts/`, so the preview should keep the intended typography when hosted or opened from this folder.
