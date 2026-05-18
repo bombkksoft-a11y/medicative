@@ -1,13 +1,13 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="à¸—à¸²à¸‡à¸”à¹ˆà¸§à¸™à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸ªà¸³à¸«à¸£à¸±à¸šà¸­à¸²à¸à¸²à¸£à¸«à¸±à¸§à¹ƒà¸ˆà¸‚à¸²à¸”à¹€à¸¥à¸·à¸­à¸” à¸à¸²à¸£à¸›à¸à¸¡à¸žà¸¢à¸²à¸šà¸²à¸¥ à¸ªà¸´à¸—à¸˜à¸´ UCEP à¹à¸¥à¸°à¸Šà¹ˆà¸­à¸‡à¸—à¸²à¸‡à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥"
+      content="ทางด่วนข้อมูลสำหรับอาการหัวใจขาดเลือด การปฐมพยาบาล สิทธิ UCEP และช่องทางโรงพยาบาล"
     />
-    <title>Medicative - à¸—à¸²à¸‡à¸”à¹ˆà¸§à¸™à¸£à¸±à¸à¸©à¸²à¸«à¸±à¸§à¹ƒà¸ˆà¸‚à¸²à¸”à¹€à¸¥à¸·à¸­à¸”</title>
+    <title>Medicative - ทางด่วนรักษาหัวใจขาดเลือด</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -223,12 +223,12 @@
 
           <div class="hidden min-w-0 flex-1 items-center justify-end gap-3 md:flex">
             <label class="relative w-full max-w-xs">
-              <span class="sr-only">à¸„à¹‰à¸™à¸«à¸²à¹ƒà¸™à¸«à¸™à¹‰à¸²à¸™à¸µà¹‰</span>
+              <span class="sr-only">ค้นหาในหน้านี้</span>
               <i data-lucide="search" class="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400"></i>
               <input
                 id="siteSearch"
                 type="search"
-                placeholder="à¸„à¹‰à¸™à¸«à¸²à¸­à¸²à¸à¸²à¸£ à¸ªà¸´à¸—à¸˜à¸´ à¸«à¸£à¸·à¸­à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥"
+                placeholder="ค้นหาอาการ สิทธิ หรือโรงพยาบาล"
                 class="h-11 w-full rounded-full border border-slate-200 bg-slate-50 pl-11 pr-4 text-sm font-medium outline-none transition focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
               />
             </label>
@@ -238,7 +238,7 @@
             <button
               id="searchToggle"
               class="inline-flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 md:hidden"
-              aria-label="à¸„à¹‰à¸™à¸«à¸²"
+              aria-label="ค้นหา"
               type="button"
             >
               <i data-lucide="search" class="h-6 w-6"></i>
@@ -246,7 +246,7 @@
             <button
               id="menuToggle"
               class="inline-flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 lg:hidden"
-              aria-label="à¹€à¸¡à¸™à¸¹"
+              aria-label="เมนู"
               type="button"
               aria-expanded="false"
               aria-controls="mobileMenu"
@@ -258,12 +258,12 @@
 
         <div id="mobileSearch" class="hidden border-t border-slate-100 px-5 py-3 md:hidden">
           <label class="relative block">
-            <span class="sr-only">à¸„à¹‰à¸™à¸«à¸²à¹ƒà¸™à¸«à¸™à¹‰à¸²à¸™à¸µà¹‰</span>
+            <span class="sr-only">ค้นหาในหน้านี้</span>
             <i data-lucide="search" class="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400"></i>
             <input
               id="mobileSiteSearch"
               type="search"
-              placeholder="à¸„à¹‰à¸™à¸«à¸²à¸­à¸²à¸à¸²à¸£ à¸ªà¸´à¸—à¸˜à¸´ à¸«à¸£à¸·à¸­à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥"
+              placeholder="ค้นหาอาการ สิทธิ หรือโรงพยาบาล"
               class="h-11 w-full rounded-full border border-slate-200 bg-slate-50 pl-11 pr-4 text-sm font-medium outline-none transition focus:border-blue-400 focus:bg-white focus:ring-4 focus:ring-blue-100"
             />
           </label>
@@ -272,7 +272,7 @@
         <nav
           id="mobileMenu"
           class="menu-closed overflow-hidden border-t border-slate-100 px-5 transition-all duration-300 lg:hidden"
-          aria-label="à¹€à¸¡à¸™à¸¹à¸—à¸²à¸‡à¸¥à¸±à¸”à¸šà¸™à¸¡à¸·à¸­à¸–à¸·à¸­"
+          aria-label="เมนูทางลัดบนมือถือ"
         >
           <div class="grid gap-2 py-3 sm:grid-cols-2"></div>
         </nav>
@@ -280,50 +280,50 @@
 
       <main id="top" class="px-5 pb-14 pt-5 sm:px-8 lg:flex lg:items-start lg:gap-x-8">
         <aside
-          aria-label="à¹€à¸¡à¸™à¸¹à¸—à¸²à¸‡à¸¥à¸±à¸”"
+          aria-label="เมนูทางลัด"
           class="mb-7 hidden rounded-[1.25rem] border border-slate-200 bg-white p-3 shadow-[0_16px_40px_rgba(15,23,42,0.08)] lg:sticky lg:top-24 lg:mb-0 lg:block lg:w-[300px] lg:shrink-0 lg:self-start"
         >
           <nav id="sideNav" class="space-y-1">
             <a href="#emergency" class="nav-link active flex items-center gap-4 rounded-full px-3 py-3 text-base font-semibold text-slate-600 transition hover:bg-blue-50 hover:text-slate-900">
               <i data-lucide="heart" class="h-5 w-5 shrink-0"></i>
-              <span>à¸­à¸²à¸à¸²à¸£à¸§à¸´à¸à¸¤à¸•</span>
+              <span>อาการวิกฤต</span>
             </a>
             <a href="#firstaid" class="nav-link flex items-center gap-4 rounded-full px-3 py-3 text-base font-semibold text-slate-600 transition hover:bg-blue-50 hover:text-slate-900">
               <i data-lucide="badge-plus" class="h-5 w-5 shrink-0"></i>
-              <span>à¸›à¸à¸¡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹€à¸šà¸·à¹‰à¸­à¸‡à¸•à¹‰à¸™</span>
+              <span>ปฐมพยาบาลเบื้องต้น</span>
             </a>
             <a href="#rights" class="nav-link flex items-center gap-4 rounded-full px-3 py-3 text-base font-semibold text-slate-600 transition hover:bg-blue-50 hover:text-slate-900">
               <i data-lucide="shield" class="h-5 w-5 shrink-0"></i>
-              <span>à¸ªà¸´à¸—à¸˜à¸´à¸à¸²à¸£à¸£à¸±à¸à¸©à¸² UCEP</span>
+              <span>สิทธิการรักษา UCEP</span>
             </a>
             <a href="#hospitals" class="nav-link flex items-center gap-4 rounded-full px-3 py-3 text-base font-semibold text-slate-600 transition hover:bg-blue-50 hover:text-slate-900">
               <i data-lucide="map-pin" class="h-5 w-5 shrink-0"></i>
-              <span>à¸„à¹‰à¸™à¸«à¸²à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥</span>
+              <span>ค้นหาโรงพยาบาล</span>
             </a>
             <a href="#faq" class="nav-link flex items-center gap-4 rounded-full px-3 py-3 text-base font-semibold text-slate-600 transition hover:bg-blue-50 hover:text-slate-900">
               <i data-lucide="circle-help" class="h-5 w-5 shrink-0"></i>
-              <span>à¸„à¸³à¸–à¸²à¸¡à¸—à¸µà¹ˆà¸žà¸šà¸šà¹ˆà¸­à¸¢</span>
+              <span>คำถามที่พบบ่อย</span>
             </a>
             <a href="#community" class="nav-link flex items-center gap-4 rounded-full px-3 py-3 text-base font-semibold text-slate-600 transition hover:bg-blue-50 hover:text-slate-900">
               <i data-lucide="users" class="h-5 w-5 shrink-0"></i>
-              <span>à¸„à¸­à¸¡à¸¡à¸¹à¸™à¸´à¸•à¸µà¹‰</span>
+              <span>คอมมูนิตี้</span>
             </a>
           </nav>
 
           <div class="mt-5 rounded-2xl bg-red-50 p-4 text-sm font-semibold leading-6 text-red-700">
             <div class="mb-2 flex items-center gap-2 text-red-600">
               <i data-lucide="siren" class="h-5 w-5"></i>
-              à¸‰à¸¸à¸à¹€à¸‰à¸´à¸™
+              ฉุกเฉิน
             </div>
-            à¸«à¸²à¸à¸¡à¸µà¸­à¸²à¸à¸²à¸£à¹à¸™à¹ˆà¸™à¸«à¸™à¹‰à¸²à¸­à¸à¸£à¸¸à¸™à¹à¸£à¸‡ à¹€à¸«à¸™à¸·à¹ˆà¸­à¸¢à¸¡à¸²à¸ à¸«à¸£à¸·à¸­à¸«à¸¡à¸”à¸ªà¸•à¸´ à¹‚à¸—à¸£ 1669 à¸—à¸±à¸™à¸—à¸µ
+            หากมีอาการแน่นหน้าอกรุนแรง เหนื่อยมาก หรือหมดสติ โทร 1669 ทันที
           </div>
         </aside>
 
         <div class="lg:min-w-0 lg:flex-1">
-        <section class="h-fit self-start overflow-hidden rounded-[1.5rem] border border-slate-200 bg-slate-100 shadow-sm lg:col-start-2" aria-label="à¸£à¸¹à¸›à¸ à¸²à¸žà¸›à¸à¸«à¸±à¸§à¹ƒà¸ˆà¸‚à¸²à¸”à¹€à¸¥à¸·à¸­à¸”">
+        <section class="h-fit self-start overflow-hidden rounded-[1.5rem] border border-slate-200 bg-slate-100 shadow-sm lg:col-start-2" aria-label="รูปภาพปกหัวใจขาดเลือด">
           <img
             src="https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&w=1600&q=80"
-            alt="à¸ à¸²à¸žà¸›à¸£à¸°à¸à¸­à¸šà¸à¸²à¸£à¸”à¸¹à¹à¸¥à¸«à¸±à¸§à¹ƒà¸ˆà¹à¸¥à¸°à¸«à¸¥à¸­à¸”à¹€à¸¥à¸·à¸­à¸”"
+            alt="ภาพประกอบการดูแลหัวใจและหลอดเลือด"
             class="h-56 w-full object-cover sm:h-72"
           />
         </section>
@@ -333,10 +333,10 @@
             <div>
               <p class="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-blue-700">Medicative Fast Track</p>
               <h1 class="text-3xl font-extrabold leading-tight tracking-tight text-slate-950 sm:text-4xl">
-                à¸—à¸²à¸‡à¸”à¹ˆà¸§à¸™à¸£à¸±à¸à¸©à¸² â€œà¸«à¸±à¸§à¹ƒà¸ˆà¸‚à¸²à¸”à¹€à¸¥à¸·à¸­à¸”â€
+                ทางด่วนรักษา “หัวใจขาดเลือด”
               </h1>
               <p class="mt-3 max-w-2xl text-lg leading-8 text-slate-600">
-                à¸ªà¸£à¸¸à¸›à¸­à¸²à¸à¸²à¸£à¸ªà¸³à¸„à¸±à¸ à¸à¸²à¸£à¸›à¸à¸¡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹€à¸šà¸·à¹‰à¸­à¸‡à¸•à¹‰à¸™ à¸ªà¸´à¸—à¸˜à¸´à¸‰à¸¸à¸à¹€à¸‰à¸´à¸™ à¹à¸¥à¸°à¸Šà¹ˆà¸­à¸‡à¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²à¸£à¸±à¸šà¸à¸²à¸£à¸£à¸±à¸à¸©à¸²à¹ƒà¸«à¹‰à¸•à¸±à¸”à¸ªà¸´à¸™à¹ƒà¸ˆà¹„à¸”à¹‰à¹€à¸£à¹‡à¸§à¸‚à¸¶à¹‰à¸™
+                สรุปอาการสำคัญ การปฐมพยาบาลเบื้องต้น สิทธิฉุกเฉิน และช่องทางเข้ารับการรักษาให้ตัดสินใจได้เร็วขึ้น
               </p>
             </div>
           </div>
@@ -353,33 +353,33 @@
             </div>
             <div class="flex-1">
               <h2 class="text-center text-2xl font-extrabold tracking-tight text-red-600 sm:text-left">
-                à¸”à¹ˆà¸§à¸™! à¸«à¸²à¸à¸„à¸¸à¸“à¸¡à¸µà¸­à¸²à¸à¸²à¸£à¸”à¸±à¸‡à¸•à¹ˆà¸­à¹„à¸›à¸™à¸µà¹‰
+                ด่วน! หากคุณมีอาการดังต่อไปนี้
               </h2>
               <div class="mt-5 grid gap-3 sm:grid-cols-2 sm:gap-x-8">
                 <ul class="space-y-3 text-lg font-semibold text-slate-900">
-                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>à¹à¸™à¹ˆà¸™à¸«à¸™à¹‰à¸²à¸­à¸</li>
-                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>à¹ƒà¸ˆà¸ªà¸±à¹ˆà¸™ à¸§à¸¹à¸š à¸«à¸£à¸·à¸­à¸«à¸™à¹‰à¸²à¸¡à¸·à¸”</li>
-                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>à¹€à¸«à¸™à¸·à¹ˆà¸­à¸¢à¸‡à¹ˆà¸²à¸¢à¸œà¸´à¸”à¸›à¸à¸•à¸´</li>
+                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>แน่นหน้าอก</li>
+                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>ใจสั่น วูบ หรือหน้ามืด</li>
+                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>เหนื่อยง่ายผิดปกติ</li>
                 </ul>
                 <ul class="space-y-3 border-red-200 text-lg font-semibold text-slate-900 sm:border-l sm:pl-9">
-                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>à¹€à¸«à¸‡à¸·à¹ˆà¸­à¸­à¸­à¸à¸¡à¸²à¸</li>
-                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>à¹€à¸§à¸µà¸¢à¸™à¸¨à¸µà¸£à¸©à¸°à¸«à¸£à¸·à¸­à¸„à¸¥à¸·à¹ˆà¸™à¹„à¸ªà¹‰</li>
-                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>à¹€à¸ˆà¹‡à¸šà¸£à¹‰à¸²à¸§à¹à¸‚à¸™ à¸„à¸­ à¸à¸£à¸²à¸¡ à¸«à¸£à¸·à¸­à¸«à¸¥à¸±à¸‡</li>
+                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>เหงื่อออกมาก</li>
+                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>เวียนศีรษะหรือคลื่นไส้</li>
+                  <li class="flex items-center gap-3"><span class="h-3 w-3 rounded-full bg-red-500"></span>เจ็บร้าวแขน คอ กราม หรือหลัง</li>
                 </ul>
               </div>
 
               <div class="mt-6 rounded-2xl bg-red-600 p-4 text-white sm:p-5">
                 <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                   <div>
-                    <p class="text-lg font-bold">à¹ƒà¸«à¹‰à¸«à¸¢à¸¸à¸”à¸à¸´à¸ˆà¸à¸£à¸£à¸¡à¹à¸¥à¸°à¹‚à¸—à¸£à¸‚à¸­à¸„à¸§à¸²à¸¡à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­à¸—à¸±à¸™à¸—à¸µ</p>
-                    <p class="mt-1 text-sm font-medium text-red-50">à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸™à¸µà¹‰à¸Šà¹ˆà¸§à¸¢à¹€à¸•à¸·à¸­à¸™à¹€à¸šà¸·à¹‰à¸­à¸‡à¸•à¹‰à¸™ à¹„à¸¡à¹ˆà¹à¸—à¸™à¸à¸²à¸£à¸§à¸´à¸™à¸´à¸ˆà¸‰à¸±à¸¢à¸ˆà¸²à¸à¹à¸žà¸—à¸¢à¹Œ</p>
+                    <p class="text-lg font-bold">ให้หยุดกิจกรรมและโทรขอความช่วยเหลือทันที</p>
+                    <p class="mt-1 text-sm font-medium text-red-50">ข้อมูลนี้ช่วยเตือนเบื้องต้น ไม่แทนการวินิจฉัยจากแพทย์</p>
                   </div>
                   <a
                     href="tel:1669"
                     class="inline-flex shrink-0 items-center justify-center gap-3 rounded-full bg-white px-6 py-3.5 text-lg font-extrabold text-red-600 shadow-[0_12px_28px_rgba(127,29,29,0.22)] transition hover:bg-red-50"
                   >
                     <i data-lucide="phone-call" class="h-6 w-6"></i>
-                    à¹‚à¸—à¸£ 1669
+                    โทร 1669
                   </a>
                 </div>
               </div>
@@ -393,16 +393,16 @@
               <i data-lucide="clipboard-check" class="h-8 w-8"></i>
             </div>
             <div class="min-w-0 flex-1">
-              <h2 class="text-xl font-extrabold tracking-tight text-slate-950">à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¹à¸™à¹ˆà¹ƒà¸ˆà¸§à¹ˆà¸²à¸­à¸²à¸à¸²à¸£à¹€à¸‚à¹‰à¸²à¸‚à¹ˆà¸²à¸¢à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ?</h2>
+              <h2 class="text-xl font-extrabold tracking-tight text-slate-950">ยังไม่แน่ใจว่าอาการเข้าข่ายหรือไม่?</h2>
               <p class="mt-1 text-base leading-7 text-slate-600">
-                à¸—à¸³à¹à¸šà¸šà¸›à¸£à¸°à¹€à¸¡à¸´à¸™à¹€à¸šà¸·à¹‰à¸­à¸‡à¸•à¹‰à¸™à¹ƒà¸™ 3 à¸™à¸²à¸—à¸µ à¹€à¸žà¸·à¹ˆà¸­à¸Šà¹ˆà¸§à¸¢à¸ˆà¸±à¸”à¸¥à¸³à¸”à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹ˆà¸‡à¸”à¹ˆà¸§à¸™à¸à¹ˆà¸­à¸™à¸žà¸šà¹à¸žà¸—à¸¢à¹Œ
+                ทำแบบประเมินเบื้องต้นใน 3 นาที เพื่อช่วยจัดลำดับความเร่งด่วนก่อนพบแพทย์
               </p>
             </div>
             <a
               href="#"
               class="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-red-50 px-5 py-3 text-base font-extrabold text-red-700 transition hover:bg-red-100"
             >
-              à¸›à¸£à¸°à¹€à¸¡à¸´à¸™à¸­à¸²à¸à¸²à¸£
+              ประเมินอาการ
               <i data-lucide="chevron-right" class="h-5 w-5"></i>
             </a>
           </div>
@@ -410,8 +410,8 @@
 
         <section id="firstaid" data-searchable class="mt-9 scroll-mt-28 lg:col-start-2">
           <div class="flex items-end justify-between gap-4">
-            <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">à¸§à¸´à¸˜à¸µà¸à¸²à¸£à¸›à¸à¸¡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹€à¸šà¸·à¹‰à¸­à¸‡à¸•à¹‰à¸™</h2>
-            <span class="hidden rounded-full bg-blue-50 px-3 py-1 text-sm font-bold text-blue-700 sm:inline-flex">4 à¸‚à¸±à¹‰à¸™à¸•à¸­à¸™à¹à¸£à¸</span>
+            <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">วิธีการปฐมพยาบาลเบื้องต้น</h2>
+            <span class="hidden rounded-full bg-blue-50 px-3 py-1 text-sm font-bold text-blue-700 sm:inline-flex">4 ขั้นตอนแรก</span>
           </div>
 
           <div class="section-card mt-4 overflow-hidden rounded-[1.25rem]">
@@ -422,8 +422,8 @@
                   <i data-lucide="armchair" class="h-7 w-7"></i>
                 </div>
                 <div class="min-w-0 flex-1">
-                  <h3 class="text-lg font-bold text-slate-950">à¸«à¸¢à¸¸à¸”à¸à¸´à¸ˆà¸à¸£à¸£à¸¡ à¸™à¸±à¹ˆà¸‡à¸žà¸±à¸</h3>
-                  <p class="text-base leading-6 text-slate-500">à¸«à¸¢à¸¸à¸”à¸—à¸³à¸à¸´à¸ˆà¸à¸£à¸£à¸¡à¸—à¸±à¸™à¸—à¸µà¹à¸¥à¸°à¸™à¸±à¹ˆà¸‡à¸žà¸±à¸à¹ƒà¸™à¸—à¹ˆà¸²à¸—à¸µà¹ˆà¸«à¸²à¸¢à¹ƒà¸ˆà¸ªà¸°à¸”à¸§à¸</p>
+                  <h3 class="text-lg font-bold text-slate-950">หยุดกิจกรรม นั่งพัก</h3>
+                  <p class="text-base leading-6 text-slate-500">หยุดทำกิจกรรมทันทีและนั่งพักในท่าที่หายใจสะดวก</p>
                 </div>
               </article>
 
@@ -433,8 +433,8 @@
                   <i data-lucide="shirt" class="h-7 w-7"></i>
                 </div>
                 <div class="min-w-0 flex-1">
-                  <h3 class="text-lg font-bold text-slate-950">à¸„à¸¥à¸²à¸¢à¹€à¸ªà¸·à¹‰à¸­à¸œà¹‰à¸²</h3>
-                  <p class="text-base leading-6 text-slate-500">à¸„à¸¥à¸²à¸¢à¹€à¸ªà¸·à¹‰à¸­à¸œà¹‰à¸² à¹€à¸‚à¹‡à¸¡à¸‚à¸±à¸” à¸«à¸£à¸·à¸­à¸ªà¸´à¹ˆà¸‡à¸—à¸µà¹ˆà¸£à¸±à¸”à¹à¸™à¹ˆà¸™</p>
+                  <h3 class="text-lg font-bold text-slate-950">คลายเสื้อผ้า</h3>
+                  <p class="text-base leading-6 text-slate-500">คลายเสื้อผ้า เข็มขัด หรือสิ่งที่รัดแน่น</p>
                 </div>
               </article>
 
@@ -444,8 +444,8 @@
                   <i data-lucide="wind" class="h-7 w-7"></i>
                 </div>
                 <div class="min-w-0 flex-1">
-                  <h3 class="text-lg font-bold text-slate-950">à¸ˆà¸±à¸”à¸­à¸²à¸à¸²à¸¨à¹ƒà¸«à¹‰à¸–à¹ˆà¸²à¸¢à¹€à¸—</h3>
-                  <p class="text-base leading-6 text-slate-500">à¹€à¸›à¸´à¸”à¸­à¸²à¸à¸²à¸¨à¸–à¹ˆà¸²à¸¢à¹€à¸— à¸¥à¸”à¸„à¸§à¸²à¸¡à¹à¸­à¸­à¸±à¸”à¸£à¸­à¸šà¸•à¸±à¸§à¸œà¸¹à¹‰à¸›à¹ˆà¸§à¸¢</p>
+                  <h3 class="text-lg font-bold text-slate-950">จัดอากาศให้ถ่ายเท</h3>
+                  <p class="text-base leading-6 text-slate-500">เปิดอากาศถ่ายเท ลดความแออัดรอบตัวผู้ป่วย</p>
                 </div>
               </article>
 
@@ -455,8 +455,8 @@
                   <i data-lucide="pill" class="h-7 w-7"></i>
                 </div>
                 <div class="min-w-0 flex-1">
-                  <h3 class="text-lg font-bold text-slate-950">à¹ƒà¸Šà¹‰à¸¢à¸²à¸•à¸²à¸¡à¹à¸žà¸—à¸¢à¹Œà¸ªà¸±à¹ˆà¸‡à¹€à¸—à¹ˆà¸²à¸™à¸±à¹‰à¸™</h3>
-                  <p class="text-base leading-6 text-slate-500">à¸–à¹‰à¸²à¸¡à¸µà¸¢à¸²à¸›à¸£à¸°à¸ˆà¸³ à¹€à¸Šà¹ˆà¸™ à¸¢à¸²à¸­à¸¡à¹ƒà¸•à¹‰à¸¥à¸´à¹‰à¸™ à¹ƒà¸«à¹‰à¸›à¸à¸´à¸šà¸±à¸•à¸´à¸•à¸²à¸¡à¸„à¸³à¹à¸™à¸°à¸™à¸³à¹€à¸”à¸´à¸¡à¸‚à¸­à¸‡à¹à¸žà¸—à¸¢à¹Œ</p>
+                  <h3 class="text-lg font-bold text-slate-950">ใช้ยาตามแพทย์สั่งเท่านั้น</h3>
+                  <p class="text-base leading-6 text-slate-500">ถ้ามียาประจำ เช่น ยาอมใต้ลิ้น ให้ปฏิบัติตามคำแนะนำเดิมของแพทย์</p>
                 </div>
               </article>
             </div>
@@ -464,59 +464,59 @@
             <div class="p-3">
               <a href="tel:1669" class="flex items-center justify-center gap-3 rounded-full bg-blue-600 px-5 py-3.5 text-lg font-bold text-white transition hover:bg-blue-700">
                 <i data-lucide="headphones" class="h-6 w-6"></i>
-                à¸›à¸£à¸¶à¸à¸©à¸²à¹€à¸ˆà¹‰à¸²à¸«à¸™à¹‰à¸²à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸à¸²à¸£à¹à¸žà¸—à¸¢à¹Œ
+                ปรึกษาเจ้าหน้าที่ทางการแพทย์
               </a>
             </div>
           </div>
         </section>
 
         <section id="rights" data-searchable class="mt-9 scroll-mt-28 lg:col-start-2">
-          <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">à¹€à¸Šà¹‡à¸ à¸£à¸ž. à¸•à¸²à¸¡à¸ªà¸´à¸—à¸˜à¸´à¹Œà¸‚à¸­à¸‡à¸„à¸¸à¸“</h2>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">เช็ก รพ. ตามสิทธิ์ของคุณ</h2>
           <div class="section-card mt-4 rounded-[1.25rem] p-4">
             <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
               <div class="inline-flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-blue-50 text-blue-700">
                 <i data-lucide="shield-check" class="h-11 w-11 fill-blue-600 text-blue-600"></i>
               </div>
               <div class="flex-1">
-                <h3 class="text-lg font-bold text-slate-950">à¸•à¸£à¸§à¸ˆà¸ªà¸­à¸šà¸ªà¸´à¸—à¸˜à¸´à¸à¸²à¸£à¸£à¸±à¸à¸©à¸²</h3>
+                <h3 class="text-lg font-bold text-slate-950">ตรวจสอบสิทธิการรักษา</h3>
                 <p class="mt-1 text-base leading-7 text-slate-600">
-                  à¸£à¸§à¸¡à¸—à¸²à¸‡à¹€à¸¥à¸·à¸­à¸à¸ªà¸³à¸«à¸£à¸±à¸šà¸šà¸±à¸•à¸£à¸—à¸­à¸‡ à¸›à¸£à¸°à¸à¸±à¸™à¸ªà¸±à¸‡à¸„à¸¡ à¸‚à¹‰à¸²à¸£à¸²à¸Šà¸à¸²à¸£ à¹à¸¥à¸°à¸ªà¸´à¸—à¸˜à¸´à¸­à¸·à¹ˆà¸™ à¹† à¸à¹ˆà¸­à¸™à¹€à¸”à¸´à¸™à¸—à¸²à¸‡à¹„à¸›à¸£à¸±à¸šà¸šà¸£à¸´à¸à¸²à¸£
+                  รวมทางเลือกสำหรับบัตรทอง ประกันสังคม ข้าราชการ และสิทธิอื่น ๆ ก่อนเดินทางไปรับบริการ
                 </p>
               </div>
               <a href="https://eservices.nhso.go.th/eServices/mobile/login.xhtml" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-blue-50 px-5 py-3 text-base font-bold text-blue-700 hover:bg-blue-100">
-                à¹€à¸Šà¹‡à¸à¸ªà¸´à¸—à¸˜à¸´à¹Œ
+                เช็กสิทธิ์
                 <i data-lucide="external-link" class="h-5 w-5"></i>
               </a>
             </div>
             <div class="mt-4 flex items-start gap-2 rounded-xl bg-red-50 px-4 py-3 text-sm font-semibold leading-6 text-red-600">
               <i data-lucide="shield-alert" class="mt-0.5 h-5 w-5 shrink-0 fill-red-100"></i>
-              à¸à¸£à¸“à¸µà¸‰à¸¸à¸à¹€à¸‰à¸´à¸™à¸§à¸´à¸à¸¤à¸• à¹ƒà¸«à¹‰à¹„à¸›à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¸—à¸µà¹ˆà¹ƒà¸à¸¥à¹‰à¸—à¸µà¹ˆà¸ªà¸¸à¸”à¸«à¸£à¸·à¸­à¹‚à¸—à¸£ 1669 à¹€à¸žà¸·à¹ˆà¸­à¸›à¸£à¸°à¸ªà¸²à¸™à¸à¸²à¸£à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­
+              กรณีฉุกเฉินวิกฤต ให้ไปโรงพยาบาลที่ใกล้ที่สุดหรือโทร 1669 เพื่อประสานการช่วยเหลือ
             </div>
 
             <div class="mt-4 rounded-2xl border border-blue-100 bg-blue-50/70 p-4">
               <div class="mb-3 inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm font-extrabold text-blue-700">
                 <i data-lucide="info" class="h-4 w-4"></i>
-                à¸£à¸¹à¹‰à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ?
+                รู้หรือไม่?
               </div>
               <h3 class="text-lg font-extrabold leading-7 text-slate-950">
-                à¸šà¸²à¸‡à¸ªà¸´à¸—à¸˜à¸´à¸­à¸²à¸ˆà¸„à¸£à¸­à¸šà¸„à¸¥à¸¸à¸¡à¸à¸²à¸£à¸•à¸£à¸§à¸ˆà¸„à¸±à¸”à¸à¸£à¸­à¸‡à¹à¸¥à¸°à¸à¸²à¸£à¸£à¸±à¸à¸©à¸²à¹‚à¸£à¸„à¸«à¸±à¸§à¹ƒà¸ˆà¸•à¸²à¸¡à¹€à¸‡à¸·à¹ˆà¸­à¸™à¹„à¸‚
+                บางสิทธิอาจครอบคลุมการตรวจคัดกรองและการรักษาโรคหัวใจตามเงื่อนไข
               </h3>
               <ul class="mt-4 space-y-3 text-sm leading-6 text-slate-700 sm:text-base">
                 <li class="flex gap-3">
                   <i data-lucide="circle-check" class="mt-0.5 h-5 w-5 shrink-0 fill-blue-600 text-white"></i>
-                  <span><strong class="text-blue-700">à¸ªà¸´à¸—à¸˜à¸´à¸šà¸±à¸•à¸£à¸—à¸­à¸‡ (à¸ªà¸›à¸ªà¸Š.):</strong> à¸­à¸²à¸ˆà¹ƒà¸Šà¹‰à¸ªà¸´à¸—à¸˜à¸´à¸•à¸£à¸§à¸ˆà¸„à¸±à¸”à¸à¸£à¸­à¸‡à¸„à¸§à¸²à¸¡à¹€à¸ªà¸µà¹ˆà¸¢à¸‡ à¹€à¸Šà¹ˆà¸™ EKG à¸«à¸£à¸·à¸­à¹€à¸ˆà¸²à¸°à¹€à¸¥à¸·à¸­à¸” à¸•à¸²à¸¡à¹€à¸à¸“à¸‘à¹Œà¸šà¸£à¸´à¸à¸²à¸£</span>
+                  <span><strong class="text-blue-700">สิทธิบัตรทอง (สปสช.):</strong> อาจใช้สิทธิตรวจคัดกรองความเสี่ยง เช่น EKG หรือเจาะเลือด ตามเกณฑ์บริการ</span>
                 </li>
                 <li class="flex gap-3">
                   <i data-lucide="circle-check" class="mt-0.5 h-5 w-5 shrink-0 fill-blue-600 text-white"></i>
-                  <span><strong class="text-blue-700">à¸ªà¸´à¸—à¸˜à¸´à¸›à¸£à¸°à¸à¸±à¸™à¸ªà¸±à¸‡à¸„à¸¡:</strong> à¸„à¸£à¸­à¸šà¸„à¸¥à¸¸à¸¡à¸à¸²à¸£à¸•à¸£à¸§à¸ˆà¸ªà¸¸à¸‚à¸ à¸²à¸žà¸›à¸£à¸°à¸ˆà¸³à¸›à¸µ à¹à¸¥à¸°à¸£à¸±à¸à¸©à¸²à¹ƒà¸™à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¸•à¸²à¸¡à¸ªà¸´à¸—à¸˜à¸´</span>
+                  <span><strong class="text-blue-700">สิทธิประกันสังคม:</strong> ครอบคลุมการตรวจสุขภาพประจำปี และรักษาในโรงพยาบาลตามสิทธิ</span>
                 </li>
                 <li class="flex gap-3">
                   <i data-lucide="circle-check" class="mt-0.5 h-5 w-5 shrink-0 fill-blue-600 text-white"></i>
-                  <span><strong class="text-blue-700">à¸ªà¸´à¸—à¸˜à¸´à¸‚à¹‰à¸²à¸£à¸²à¸Šà¸à¸²à¸£:</strong> à¸„à¸£à¸­à¸šà¸„à¸¥à¸¸à¸¡à¸à¸²à¸£à¸£à¸±à¸à¸©à¸²à¹à¸¥à¸°à¸Ÿà¸·à¹‰à¸™à¸Ÿà¸¹à¸•à¸²à¸¡à¸£à¸°à¹€à¸šà¸µà¸¢à¸šà¸‚à¸­à¸‡à¸ªà¸´à¸—à¸˜à¸´à¹à¸¥à¸°à¸ªà¸–à¸²à¸™à¸žà¸¢à¸²à¸šà¸²à¸¥à¸—à¸µà¹ˆà¹€à¸‚à¹‰à¸²à¸£à¹ˆà¸§à¸¡</span>
+                  <span><strong class="text-blue-700">สิทธิข้าราชการ:</strong> ครอบคลุมการรักษาและฟื้นฟูตามระเบียบของสิทธิและสถานพยาบาลที่เข้าร่วม</span>
                 </li>
               </ul>
               <a href="#rights" class="mt-4 inline-flex items-center gap-2 text-sm font-extrabold text-blue-700 hover:text-blue-800">
-                à¸­à¹ˆà¸²à¸™à¹€à¸‡à¸·à¹ˆà¸­à¸™à¹„à¸‚à¸ªà¸´à¸—à¸˜à¸´à¸•à¹ˆà¸²à¸‡ à¹†
+                อ่านเงื่อนไขสิทธิต่าง ๆ
                 <i data-lucide="chevron-right" class="h-4 w-4"></i>
               </a>
             </div>
@@ -526,23 +526,23 @@
         <section id="hospitals" data-searchable class="mt-9 scroll-mt-28 lg:col-start-2">
           <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">à¹à¸™à¸°à¸™à¸³à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹€à¸‰à¸žà¸²à¸°à¸—à¸²à¸‡à¸«à¸±à¸§à¹ƒà¸ˆ</h2>
-              <p id="hospitalCount" class="mt-1 text-sm font-semibold text-slate-500">à¹à¸ªà¸”à¸‡ 3 à¹à¸«à¹ˆà¸‡</p>
+              <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">แนะนำโรงพยาบาลเฉพาะทางหัวใจ</h2>
+              <p id="hospitalCount" class="mt-1 text-sm font-semibold text-slate-500">แสดง 3 แห่ง</p>
             </div>
           </div>
 
-          <div class="mt-4 flex gap-2 overflow-x-auto pb-1" role="list" aria-label="à¸•à¸±à¸§à¸à¸£à¸­à¸‡à¸ à¸¹à¸¡à¸´à¸ à¸²à¸„">
-            <button class="filter-btn shrink-0 rounded-full bg-blue-600 px-5 py-2.5 text-base font-bold text-white shadow-sm" data-filter="all" type="button">à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”</button>
-            <button class="filter-btn shrink-0 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-base font-semibold text-slate-700" data-filter="bangkok" type="button">à¸à¸£à¸¸à¸‡à¹€à¸—à¸žà¸¯</button>
-            <button class="filter-btn shrink-0 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-base font-semibold text-slate-700" data-filter="north" type="button">à¸ à¸²à¸„à¹€à¸«à¸™à¸·à¸­</button>
+          <div class="mt-4 flex gap-2 overflow-x-auto pb-1" role="list" aria-label="ตัวกรองภูมิภาค">
+            <button class="filter-btn shrink-0 rounded-full bg-blue-600 px-5 py-2.5 text-base font-bold text-white shadow-sm" data-filter="all" type="button">ทั้งหมด</button>
+            <button class="filter-btn shrink-0 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-base font-semibold text-slate-700" data-filter="bangkok" type="button">กรุงเทพฯ</button>
+            <button class="filter-btn shrink-0 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-base font-semibold text-slate-700" data-filter="north" type="button">ภาคเหนือ</button>
           </div>
 
           <div class="mt-4 space-y-3">
             <article class="hospital-card flex flex-col gap-4 rounded-[1.25rem] border border-slate-200 bg-white p-3 shadow-sm sm:flex-row" data-region="bangkok">
-              <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=500&q=80" alt="à¸ à¸²à¸žà¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¸¨à¸´à¸£à¸´à¸£à¸²à¸Š" class="h-36 w-full rounded-xl object-cover sm:h-28 sm:w-32" />
+              <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=500&q=80" alt="ภาพโรงพยาบาลศิริราช" class="h-36 w-full rounded-xl object-cover sm:h-28 sm:w-32" />
               <div class="min-w-0 flex-1">
-                <h3 class="text-lg font-bold text-slate-950">à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¸¨à¸´à¸£à¸´à¸£à¸²à¸Š (à¸à¸£à¸¸à¸‡à¹€à¸—à¸žà¸¡à¸«à¸²à¸™à¸„à¸£)</h3>
-                <p class="text-base font-bold text-red-500">à¸¨à¸¹à¸™à¸¢à¹Œà¸«à¸±à¸§à¹ƒà¸ˆà¹à¸¥à¸°à¸«à¸¥à¸­à¸”à¹€à¸¥à¸·à¸­à¸”à¸¨à¸´à¸£à¸´à¸£à¸²à¸Š</p>
+                <h3 class="text-lg font-bold text-slate-950">โรงพยาบาลศิริราช (กรุงเทพมหานคร)</h3>
+                <p class="text-base font-bold text-red-500">ศูนย์หัวใจและหลอดเลือดศิริราช</p>
                 <div class="mt-3 flex flex-wrap gap-2">
                   <a href="tel:024197000" class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-base font-bold text-blue-700">
                     <i data-lucide="phone" class="h-4 w-4"></i>
@@ -550,17 +550,17 @@
                   </a>
                   <a href="https://maps.google.com/?q=Siriraj%20Hospital" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-base font-bold text-slate-700">
                     <i data-lucide="map-pin" class="h-4 w-4 text-blue-700"></i>
-                    à¸”à¸¹à¹à¸œà¸™à¸—à¸µà¹ˆ
+                    ดูแผนที่
                   </a>
                 </div>
               </div>
             </article>
 
             <article class="hospital-card flex flex-col gap-4 rounded-[1.25rem] border border-slate-200 bg-white p-3 shadow-sm sm:flex-row" data-region="bangkok">
-              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=500&q=80" alt="à¸ à¸²à¸žà¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¸žà¸£à¸°à¸£à¸²à¸¡à¹€à¸à¹‰à¸²" class="h-36 w-full rounded-xl object-cover sm:h-28 sm:w-32" />
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=500&q=80" alt="ภาพโรงพยาบาลพระรามเก้า" class="h-36 w-full rounded-xl object-cover sm:h-28 sm:w-32" />
               <div class="min-w-0 flex-1">
-                <h3 class="text-lg font-bold text-slate-950">à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¸žà¸£à¸°à¸£à¸²à¸¡à¹€à¸à¹‰à¸² (à¸à¸£à¸¸à¸‡à¹€à¸—à¸žà¸¯)</h3>
-                <p class="text-base font-bold text-red-500">à¸¨à¸¹à¸™à¸¢à¹Œà¸«à¸±à¸§à¹ƒà¸ˆà¸žà¸£à¸°à¸£à¸²à¸¡à¹€à¸à¹‰à¸²</p>
+                <h3 class="text-lg font-bold text-slate-950">โรงพยาบาลพระรามเก้า (กรุงเทพฯ)</h3>
+                <p class="text-base font-bold text-red-500">ศูนย์หัวใจพระรามเก้า</p>
                 <div class="mt-3 flex flex-wrap gap-2">
                   <a href="tel:022489999" class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-base font-bold text-blue-700">
                     <i data-lucide="phone" class="h-4 w-4"></i>
@@ -568,17 +568,17 @@
                   </a>
                   <a href="https://maps.google.com/?q=Praram%209%20Hospital" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-base font-bold text-slate-700">
                     <i data-lucide="map-pin" class="h-4 w-4 text-blue-700"></i>
-                    à¸”à¸¹à¹à¸œà¸™à¸—à¸µà¹ˆ
+                    ดูแผนที่
                   </a>
                 </div>
               </div>
             </article>
 
             <article class="hospital-card flex flex-col gap-4 rounded-[1.25rem] border border-slate-200 bg-white p-3 shadow-sm sm:flex-row" data-region="north">
-              <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=500&q=80" alt="à¸ à¸²à¸žà¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹€à¸Šà¸µà¸¢à¸‡à¹ƒà¸«à¸¡à¹ˆà¸£à¸²à¸¡" class="h-36 w-full rounded-xl object-cover sm:h-28 sm:w-32" />
+              <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=500&q=80" alt="ภาพโรงพยาบาลเชียงใหม่ราม" class="h-36 w-full rounded-xl object-cover sm:h-28 sm:w-32" />
               <div class="min-w-0 flex-1">
-                <h3 class="text-lg font-bold text-slate-950">à¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹€à¸Šà¸µà¸¢à¸‡à¹ƒà¸«à¸¡à¹ˆà¸£à¸²à¸¡ (à¹€à¸Šà¸µà¸¢à¸‡à¹ƒà¸«à¸¡à¹ˆ)</h3>
-                <p class="text-base font-bold text-red-500">à¸¨à¸¹à¸™à¸¢à¹Œà¸«à¸±à¸§à¹ƒà¸ˆà¹à¸¥à¸°à¸«à¸¥à¸­à¸”à¹€à¸¥à¸·à¸­à¸”</p>
+                <h3 class="text-lg font-bold text-slate-950">โรงพยาบาลเชียงใหม่ราม (เชียงใหม่)</h3>
+                <p class="text-base font-bold text-red-500">ศูนย์หัวใจและหลอดเลือด</p>
                 <div class="mt-3 flex flex-wrap gap-2">
                   <a href="tel:053158888" class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-base font-bold text-blue-700">
                     <i data-lucide="phone" class="h-4 w-4"></i>
@@ -586,7 +586,7 @@
                   </a>
                   <a href="https://maps.google.com/?q=Chiangmai%20Ram%20Hospital" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-base font-bold text-slate-700">
                     <i data-lucide="map-pin" class="h-4 w-4 text-blue-700"></i>
-                    à¸”à¸¹à¹à¸œà¸™à¸—à¸µà¹ˆ
+                    ดูแผนที่
                   </a>
                 </div>
               </div>
@@ -597,10 +597,10 @@
         <section id="online-care" data-searchable class="mt-9 scroll-mt-28 overflow-hidden rounded-[1.5rem] border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-pink-50 p-5 shadow-[0_18px_45px_rgba(37,99,235,0.10)] sm:p-8">
           <div class="text-center">
             <h2 class="text-3xl font-extrabold leading-tight tracking-tight text-slate-950 sm:text-4xl">
-              à¸Šà¹ˆà¸­à¸‡à¸—à¸²à¸‡à¸£à¸±à¸à¸©à¸²à¹à¸¥à¸°à¸›à¸£à¸¶à¸à¸©à¸²à¸­à¸­à¸™à¹„à¸¥à¸™à¹Œ
+              ช่องทางรักษาและปรึกษาออนไลน์
             </h2>
             <p class="mt-3 text-lg font-semibold leading-8 text-slate-500">
-              à¸›à¸£à¸¶à¸à¸©à¸²à¹à¸žà¸—à¸¢à¹Œà¹€à¸‰à¸žà¸²à¸°à¸—à¸²à¸‡à¸œà¹ˆà¸²à¸™à¹à¸­à¸›à¸žà¸¥à¸´à¹€à¸„à¸Šà¸±à¸™à¹„à¸”à¹‰à¸—à¸¸à¸à¸—à¸µà¹ˆ à¸—à¸¸à¸à¹€à¸§à¸¥à¸²
+              ปรึกษาแพทย์เฉพาะทางผ่านแอปพลิเคชันได้ทุกที่ ทุกเวลา
             </p>
           </div>
 
@@ -608,12 +608,12 @@
             <article class="overflow-hidden rounded-[1.5rem] border border-white/80 bg-white/90 p-5 shadow-[0_18px_45px_rgba(15,23,42,0.08)] backdrop-blur sm:p-6">
               <div class="grid grid-cols-[88px_minmax(0,1fr)] items-center gap-4 sm:grid-cols-[104px_minmax(0,1fr)]">
                 <div class="h-[88px] w-[88px] shrink-0 overflow-hidden rounded-[1.25rem] bg-cyan-50 shadow-[0_14px_30px_rgba(14,165,233,0.22)] sm:h-24 sm:w-24">
-                  <img src="unnamed.webp" alt="à¹„à¸­à¸„à¸­à¸™à¹à¸­à¸›à¹€à¸›à¹‹à¸²à¸•à¸±à¸‡" class="h-full w-full object-cover" />
+                  <img src="unnamed.webp" alt="ไอคอนแอปเป๋าตัง" class="h-full w-full object-cover" />
                 </div>
 
                 <div class="min-w-0 flex-1">
-                  <h3 class="text-xl font-extrabold leading-tight text-slate-950 sm:text-2xl">à¹à¸­à¸›à¸žà¸¥à¸´à¹€à¸„à¸Šà¸±à¸™ à¹€à¸›à¹‹à¸²à¸•à¸±à¸‡</h3>
-                  <p class="mt-2 text-base font-semibold leading-7 text-slate-500 sm:text-lg">à¹ƒà¸Šà¹‰à¸ªà¸´à¸—à¸˜à¸´à¸ªà¸¸à¸‚à¸ à¸²à¸žà¸—à¸µà¹ˆà¸›à¹‰à¸­à¸‡à¸à¸±à¸™à¹‚à¸£à¸„</p>
+                  <h3 class="text-xl font-extrabold leading-tight text-slate-950 sm:text-2xl">แอปพลิเคชัน เป๋าตัง</h3>
+                  <p class="mt-2 text-base font-semibold leading-7 text-slate-500 sm:text-lg">ใช้สิทธิสุขภาพที่ป้องกันโรค</p>
                 </div>
               </div>
 
@@ -622,7 +622,7 @@
                 href="#"
                 class="inline-flex w-full items-center justify-center gap-3 rounded-full bg-blue-600 px-5 py-3.5 text-base font-extrabold text-white shadow-[0_14px_30px_rgba(37,99,235,0.28)] transition hover:bg-blue-700 sm:text-lg"
               >
-                à¹€à¸›à¸´à¸”à¹à¸­à¸›à¹€à¸›à¹‹à¸²à¸•à¸±à¸‡
+                เปิดแอปเป๋าตัง
                 <i data-lucide="chevron-right" class="h-6 w-6"></i>
               </a>
             </article>
@@ -630,12 +630,12 @@
             <article class="overflow-hidden rounded-[1.5rem] border border-white/80 bg-white/90 p-5 shadow-[0_18px_45px_rgba(20,184,166,0.12)] backdrop-blur sm:p-6">
               <div class="grid grid-cols-[88px_minmax(0,1fr)] items-center gap-4 sm:grid-cols-[104px_minmax(0,1fr)]">
                 <div class="h-[88px] w-[88px] shrink-0 overflow-hidden rounded-[1.25rem] bg-emerald-50 shadow-[0_14px_30px_rgba(20,184,166,0.20)] sm:h-24 sm:w-24">
-                  <img src="unnamed.png" alt="à¹„à¸­à¸„à¸­à¸™à¹à¸­à¸›à¸«à¸¡à¸­à¸”à¸µ" class="h-full w-full object-cover" />
+                  <img src="unnamed.png" alt="ไอคอนแอปหมอดี" class="h-full w-full object-cover" />
                 </div>
 
                 <div class="min-w-0 flex-1">
-                  <h3 class="text-xl font-extrabold leading-tight text-slate-950 sm:text-2xl">à¹à¸­à¸›à¸žà¸¥à¸´à¹€à¸„à¸Šà¸±à¸™ à¸«à¸¡à¸­à¸”à¸µ</h3>
-                  <p class="mt-2 text-base font-semibold leading-7 text-slate-500 sm:text-lg">à¸›à¸£à¸¶à¸à¸©à¸²à¹à¸žà¸—à¸¢à¹Œà¹€à¸‰à¸žà¸²à¸°à¸—à¸²à¸‡à¸­à¸­à¸™à¹„à¸¥à¸™à¹Œ</p>
+                  <h3 class="text-xl font-extrabold leading-tight text-slate-950 sm:text-2xl">แอปพลิเคชัน หมอดี</h3>
+                  <p class="mt-2 text-base font-semibold leading-7 text-slate-500 sm:text-lg">ปรึกษาแพทย์เฉพาะทางออนไลน์</p>
                 </div>
               </div>
 
@@ -644,7 +644,7 @@
                 href="#"
                 class="inline-flex w-full items-center justify-center gap-3 rounded-full bg-teal-500 px-5 py-3.5 text-base font-extrabold text-white shadow-[0_14px_30px_rgba(20,184,166,0.24)] transition hover:bg-teal-600 sm:text-lg"
               >
-                à¸”à¸²à¸§à¸™à¹Œà¹‚à¸«à¸¥à¸” / à¹€à¸›à¸´à¸”à¹à¸­à¸›à¸«à¸¡à¸­à¸”à¸µ
+                ดาวน์โหลด / เปิดแอปหมอดี
                 <i data-lucide="chevron-right" class="h-6 w-6"></i>
               </a>
             </article>
@@ -652,28 +652,28 @@
         </section>
 
         <section id="faq" data-searchable class="mt-9 scroll-mt-28 lg:col-start-2">
-          <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">à¸„à¸³à¸–à¸²à¸¡à¸—à¸µà¹ˆà¸žà¸šà¸šà¹ˆà¸­à¸¢ (FAQ)</h2>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">คำถามที่พบบ่อย (FAQ)</h2>
           <div class="section-card mt-4 overflow-hidden rounded-[1.25rem]">
             <details class="group border-b border-slate-200 px-4 py-4" open>
               <summary class="flex cursor-pointer list-none items-center gap-4">
-                <span class="flex-1 text-lg font-bold text-slate-950">à¹€à¸ˆà¹‡à¸šà¸«à¸™à¹‰à¸²à¸­à¸à¸‰à¸±à¸šà¸žà¸¥à¸±à¸™ à¸•à¹‰à¸­à¸‡à¸—à¸³à¸­à¸¢à¹ˆà¸²à¸‡à¹„à¸£?</span>
+                <span class="flex-1 text-lg font-bold text-slate-950">เจ็บหน้าอกฉับพลัน ต้องทำอย่างไร?</span>
                 <i data-lucide="chevron-down" class="h-5 w-5 shrink-0 text-slate-900 transition group-open:rotate-180"></i>
               </summary>
-              <p class="mt-2 text-base leading-7 text-slate-500">à¸«à¸¢à¸¸à¸”à¸à¸´à¸ˆà¸à¸£à¸£à¸¡ à¸™à¸±à¹ˆà¸‡à¸žà¸±à¸ à¹à¸¥à¸°à¸–à¹‰à¸²à¸¡à¸µà¸­à¸²à¸à¸²à¸£à¹à¸™à¹ˆà¸™à¸«à¸™à¹‰à¸²à¸­à¸ à¸£à¹‰à¸²à¸§à¹à¸‚à¸™ à¹€à¸«à¸™à¸·à¹ˆà¸­à¸¢à¸¡à¸²à¸ à¹€à¸«à¸‡à¸·à¹ˆà¸­à¸­à¸­à¸ à¸«à¸£à¸·à¸­à¸«à¸™à¹‰à¸²à¸¡à¸·à¸” à¹ƒà¸«à¹‰à¹‚à¸—à¸£ 1669 à¸—à¸±à¸™à¸—à¸µ</p>
+              <p class="mt-2 text-base leading-7 text-slate-500">หยุดกิจกรรม นั่งพัก และถ้ามีอาการแน่นหน้าอก ร้าวแขน เหนื่อยมาก เหงื่อออก หรือหน้ามืด ให้โทร 1669 ทันที</p>
             </details>
             <details class="group border-b border-slate-200 px-4 py-4">
               <summary class="flex cursor-pointer list-none items-center gap-4">
-                <span class="flex-1 text-lg font-bold text-slate-950">à¸ªà¸´à¸—à¸˜à¸´ UCEP à¹ƒà¸Šà¹‰à¸à¸±à¸šà¹‚à¸£à¸‡à¸žà¸¢à¸²à¸šà¸²à¸¥à¹ƒà¸”à¹„à¸”à¹‰à¸šà¹‰à¸²à¸‡?</span>
+                <span class="flex-1 text-lg font-bold text-slate-950">สิทธิ UCEP ใช้กับโรงพยาบาลใดได้บ้าง?</span>
                 <i data-lucide="chevron-down" class="h-5 w-5 shrink-0 text-slate-900 transition group-open:rotate-180"></i>
               </summary>
-              <p class="mt-2 text-base leading-7 text-slate-500">à¸à¸£à¸“à¸µà¸‰à¸¸à¸à¹€à¸‰à¸´à¸™à¸§à¸´à¸à¸¤à¸•à¹ƒà¸«à¹‰à¹„à¸›à¸ªà¸–à¸²à¸™à¸žà¸¢à¸²à¸šà¸²à¸¥à¸—à¸µà¹ˆà¹ƒà¸à¸¥à¹‰à¸—à¸µà¹ˆà¸ªà¸¸à¸” à¸«à¸£à¸·à¸­à¹‚à¸—à¸£ 1669 à¹€à¸žà¸·à¹ˆà¸­à¹ƒà¸«à¹‰à¸—à¸µà¸¡à¸‰à¸¸à¸à¹€à¸‰à¸´à¸™à¸Šà¹ˆà¸§à¸¢à¸›à¸£à¸°à¹€à¸¡à¸´à¸™à¹à¸¥à¸°à¸›à¸£à¸°à¸ªà¸²à¸™à¸‡à¸²à¸™</p>
+              <p class="mt-2 text-base leading-7 text-slate-500">กรณีฉุกเฉินวิกฤตให้ไปสถานพยาบาลที่ใกล้ที่สุด หรือโทร 1669 เพื่อให้ทีมฉุกเฉินช่วยประเมินและประสานงาน</p>
             </details>
             <details class="group px-4 py-4">
               <summary class="flex cursor-pointer list-none items-center gap-4">
-                <span class="flex-1 text-lg font-bold text-slate-950">à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸™à¸µà¹‰à¹ƒà¸Šà¹‰à¹à¸—à¸™à¹à¸žà¸—à¸¢à¹Œà¹„à¸”à¹‰à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ?</span>
+                <span class="flex-1 text-lg font-bold text-slate-950">ข้อมูลนี้ใช้แทนแพทย์ได้หรือไม่?</span>
                 <i data-lucide="chevron-down" class="h-5 w-5 shrink-0 text-slate-900 transition group-open:rotate-180"></i>
               </summary>
-              <p class="mt-2 text-base leading-7 text-slate-500">à¹„à¸¡à¹ˆà¹„à¸”à¹‰ à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸™à¸µà¹‰à¹€à¸›à¹‡à¸™à¸„à¸¹à¹ˆà¸¡à¸·à¸­à¸Šà¹ˆà¸§à¸¢à¸•à¸±à¸”à¸ªà¸´à¸™à¹ƒà¸ˆà¹€à¸šà¸·à¹‰à¸­à¸‡à¸•à¹‰à¸™à¹€à¸—à¹ˆà¸²à¸™à¸±à¹‰à¸™ à¸«à¸²à¸à¸­à¸²à¸à¸²à¸£à¸£à¸¸à¸™à¹à¸£à¸‡à¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆà¹à¸™à¹ˆà¹ƒà¸ˆà¸„à¸§à¸£à¸‚à¸­à¸„à¸§à¸²à¸¡à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­à¸ˆà¸²à¸à¹à¸žà¸—à¸¢à¹Œà¸—à¸±à¸™à¸—à¸µ</p>
+              <p class="mt-2 text-base leading-7 text-slate-500">ไม่ได้ ข้อมูลนี้เป็นคู่มือช่วยตัดสินใจเบื้องต้นเท่านั้น หากอาการรุนแรงหรือไม่แน่ใจควรขอความช่วยเหลือจากแพทย์ทันที</p>
             </details>
           </div>
         </section>
@@ -684,51 +684,51 @@
               <span class="text-3xl font-bold leading-none text-blue-600" aria-hidden="true">f</span>
             </div>
             <h3 class="mt-3 text-base font-bold text-slate-950">FB Page</h3>
-            <p class="text-sm text-slate-500">à¸­à¸±à¸›à¹€à¸”à¸•à¸ªà¸¸à¸‚à¸ à¸²à¸ž</p>
+            <p class="text-sm text-slate-500">อัปเดตสุขภาพ</p>
           </a>
           <a href="#" class="rounded-[1.25rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
             <div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full bg-blue-50 text-blue-700">
               <i data-lucide="users" class="h-9 w-9 fill-blue-500/20 text-blue-600"></i>
             </div>
-            <h3 class="mt-3 text-base font-bold text-slate-950">à¸à¸¥à¸¸à¹ˆà¸¡à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­</h3>
-            <p class="text-sm text-slate-500">à¸Šà¸¸à¸¡à¸Šà¸™à¸œà¸¹à¹‰à¸›à¹ˆà¸§à¸¢à¸«à¸±à¸§à¹ƒà¸ˆ</p>
+            <h3 class="mt-3 text-base font-bold text-slate-950">กลุ่มช่วยเหลือ</h3>
+            <p class="text-sm text-slate-500">ชุมชนผู้ป่วยหัวใจ</p>
           </a>
           <a href="#" class="rounded-[1.25rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
             <div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full bg-green-50 text-green-600">
               <i data-lucide="message-circle" class="h-9 w-9 fill-green-500 text-green-600"></i>
             </div>
             <h3 class="mt-3 text-base font-bold text-slate-950">LINE Official</h3>
-            <p class="text-sm text-slate-500">à¸ªà¸­à¸šà¸–à¸²à¸¡à¸‚à¹‰à¸­à¸¡à¸¹à¸¥</p>
+            <p class="text-sm text-slate-500">สอบถามข้อมูล</p>
           </a>
           <a href="tel:1669" class="rounded-[1.25rem] border border-slate-200 bg-white p-4 text-center shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
             <div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full bg-indigo-50 text-indigo-700">
               <i data-lucide="headphones" class="h-9 w-9 fill-indigo-100"></i>
             </div>
-            <h3 class="mt-3 text-base font-bold text-slate-950">à¸„à¸¸à¸¢à¸à¸±à¸šà¸—à¸µà¸¡</h3>
-            <p class="text-sm text-slate-500">à¹€à¸ˆà¹‰à¸²à¸«à¸™à¹‰à¸²à¸—à¸µà¹ˆ</p>
+            <h3 class="mt-3 text-base font-bold text-slate-950">คุยกับทีม</h3>
+            <p class="text-sm text-slate-500">เจ้าหน้าที่</p>
           </a>
         </section>
 
         <section data-searchable class="mt-9 lg:col-start-2">
-          <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">à¸­à¹ˆà¸²à¸™à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸žà¸´à¹ˆà¸¡à¹€à¸•à¸´à¸¡</h2>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-950">อ่านข้อมูลเพิ่มเติม</h2>
           <div class="mt-4 grid gap-5 sm:grid-cols-2">
             <article class="overflow-hidden rounded-[1.25rem] border border-slate-200 bg-white shadow-sm">
-              <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80" alt="à¸œà¸¹à¹‰à¸ªà¸¹à¸‡à¸­à¸²à¸¢à¸¸à¸¡à¸µà¸­à¸²à¸à¸²à¸£à¹€à¸ˆà¹‡à¸šà¸«à¸™à¹‰à¸²à¸­à¸" class="h-40 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80" alt="ผู้สูงอายุมีอาการเจ็บหน้าอก" class="h-40 w-full object-cover" />
               <div class="p-4">
-                <span class="rounded-full bg-blue-50 px-3 py-1 text-sm font-bold text-blue-700">à¸šà¸—à¸„à¸§à¸²à¸¡à¸ªà¸¸à¸‚à¸ à¸²à¸ž</span>
-                <h3 class="mt-3 text-lg font-bold leading-7 text-slate-950">à¹‚à¸£à¸„à¸«à¸±à¸§à¹ƒà¸ˆà¸‚à¸²à¸”à¹€à¸¥à¸·à¸­à¸”à¸„à¸·à¸­à¸­à¸°à¹„à¸£?</h3>
-                <p class="mt-1 text-base font-medium text-slate-700">à¸ªà¸²à¹€à¸«à¸•à¸¸ à¸­à¸²à¸à¸²à¸£ à¹à¸¥à¸°à¸à¸²à¸£à¸›à¹‰à¸­à¸‡à¸à¸±à¸™</p>
-                <p class="mt-3 text-sm text-slate-500">12 à¸ž.à¸„. 2567</p>
+                <span class="rounded-full bg-blue-50 px-3 py-1 text-sm font-bold text-blue-700">บทความสุขภาพ</span>
+                <h3 class="mt-3 text-lg font-bold leading-7 text-slate-950">โรคหัวใจขาดเลือดคืออะไร?</h3>
+                <p class="mt-1 text-base font-medium text-slate-700">สาเหตุ อาการ และการป้องกัน</p>
+                <p class="mt-3 text-sm text-slate-500">12 พ.ค. 2567</p>
               </div>
             </article>
 
             <article class="overflow-hidden rounded-[1.25rem] border border-slate-200 bg-white shadow-sm">
-              <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80" alt="à¸œà¸¹à¹‰à¸«à¸à¸´à¸‡à¸­à¸­à¸à¸à¸³à¸¥à¸±à¸‡à¸à¸²à¸¢à¹ƒà¸™à¸ªà¸§à¸™" class="h-40 w-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80" alt="ผู้หญิงออกกำลังกายในสวน" class="h-40 w-full object-cover" />
               <div class="p-4">
-                <span class="rounded-full bg-blue-50 px-3 py-1 text-sm font-bold text-blue-700">à¸šà¸—à¸„à¸§à¸²à¸¡à¸ªà¸¸à¸‚à¸ à¸²à¸ž</span>
-                <h3 class="mt-3 text-lg font-bold leading-7 text-slate-950">à¸ªà¸´à¸—à¸˜à¸´à¸à¸²à¸£à¸£à¸±à¸à¸©à¸²à¹‚à¸£à¸„à¸«à¸±à¸§à¹ƒà¸ˆà¸—à¸µà¹ˆà¸„à¸¸à¸“à¸„à¸§à¸£à¸£à¸¹à¹‰</h3>
-                <p class="mt-1 text-base font-medium text-slate-700">à¹€à¸•à¸£à¸µà¸¢à¸¡à¹€à¸­à¸à¸ªà¸²à¸£à¹à¸¥à¸°à¸£à¸¹à¹‰à¸Šà¹ˆà¸­à¸‡à¸—à¸²à¸‡à¸à¹ˆà¸­à¸™à¹€à¸à¸´à¸”à¹€à¸«à¸•à¸¸à¸‰à¸¸à¸à¹€à¸‰à¸´à¸™</p>
-                <p class="mt-3 text-sm text-slate-500">25 à¹€à¸¡.à¸¢. 2567</p>
+                <span class="rounded-full bg-blue-50 px-3 py-1 text-sm font-bold text-blue-700">บทความสุขภาพ</span>
+                <h3 class="mt-3 text-lg font-bold leading-7 text-slate-950">สิทธิการรักษาโรคหัวใจที่คุณควรรู้</h3>
+                <p class="mt-1 text-base font-medium text-slate-700">เตรียมเอกสารและรู้ช่องทางก่อนเกิดเหตุฉุกเฉิน</p>
+                <p class="mt-3 text-sm text-slate-500">25 เม.ย. 2567</p>
               </div>
             </article>
           </div>
@@ -737,9 +737,9 @@
         <footer class="mt-10 flex items-start justify-center gap-3 px-4 text-center text-sm leading-6 text-slate-400 lg:col-start-2">
           <i data-lucide="shield-check" class="mt-0.5 h-6 w-6 shrink-0 fill-slate-300 text-slate-300"></i>
           <p>
-            à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸™à¸µà¹‰à¸ˆà¸±à¸”à¸—à¸³à¹€à¸žà¸·à¹ˆà¸­à¸à¸²à¸£à¹ƒà¸«à¹‰à¸„à¸§à¸²à¸¡à¸£à¸¹à¹‰ à¹„à¸¡à¹ˆà¸—à¸”à¹à¸—à¸™à¸„à¸³à¹à¸™à¸°à¸™à¸³à¸ˆà¸²à¸à¹à¸žà¸—à¸¢à¹Œ
+            ข้อมูลนี้จัดทำเพื่อการให้ความรู้ ไม่ทดแทนคำแนะนำจากแพทย์
             <br class="hidden sm:block" />
-            à¸«à¸²à¸à¸¡à¸µà¸­à¸²à¸à¸²à¸£à¸£à¸¸à¸™à¹à¸£à¸‡ à¹‚à¸›à¸£à¸”à¹‚à¸—à¸£ 1669 à¸—à¸±à¸™à¸—à¸µ
+            หากมีอาการรุนแรง โปรดโทร 1669 ทันที
           </p>
         </footer>
         </div>
@@ -807,7 +807,7 @@
               card.hidden = !show;
               if (show) visible += 1;
             });
-            if (count) count.textContent = `à¹à¸ªà¸”à¸‡ ${visible} à¹à¸«à¹ˆà¸‡`;
+            if (count) count.textContent = `แสดง ${visible} แห่ง`;
           });
         });
       }
@@ -864,4 +864,3 @@
     </script>
   </body>
 </html>
-
